@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*
+cores
+    verde: #5fc282
+    azul-esverdiado: #49a09d
+    roxo: #5c0b44
+*/
+
+body,html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5c0b44;
+}
+
+section{
+    display: block;
+    background-color: white;
+    margin: auto;
+    max-width: 50vw;
+    text-align: center;
+    padding: 15px;
+}
+
+#imagem{
+    background: url(../imagens/imagem-login.jpg) center center;
+    background-size: cover;
+}
+
+input{
+    height: 30px;
+}
+
+.material-symbols-outlined{
+    background-color: #49a09d;
+    color: white;
+}
