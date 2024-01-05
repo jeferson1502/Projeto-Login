@@ -68,6 +68,20 @@ div h1{
     height: 40px;
 }
 
+.campo span{
+    color: white;
+    font-size: 2em;
+    padding: 5px;
+}
+
+.campo input{
+    width: calc(100% - 46.5px);
+    height: 100%;
+    transform: translateY(-12px);
+    border-radius: 4px;
+    border: 2px solid #5f2c82;
+}
+
 .campo label{
     display: none;
 }
