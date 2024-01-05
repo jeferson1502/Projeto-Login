@@ -4,6 +4,51 @@
 cores
     verde: #5fc282
     azul-esverdiado: #49a09d
-    roxo: #5c0b44
+    roxo: #5f2c82
 */
 
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: white;
+    height: 600px;
+    width: 320px;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+#imagem{
+    background: white url(../imagens/imagem-login.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    height: 200px;
+}
+
+#content{
+    padding: 10px;
+}
