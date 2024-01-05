@@ -40,6 +40,8 @@ section#login{
     border-radius: 20px;
     overflow: hidden;
 
+    /*transition: width .3s, height .3s; 
+    transition-timing-function: ease;*/
 }
 
 #imagem{
@@ -47,8 +49,10 @@ section#login{
     background-size: cover;
     background-position: bottom center;
     height: 200px;
+    display: block;
 }
 
 #content{
+    display: block;
     padding: 10px;
 }
