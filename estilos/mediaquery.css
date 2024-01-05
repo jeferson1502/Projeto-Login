@@ -79,4 +79,13 @@
             width: 40vw;
             height: 100vh;
         }
+
+        form > input[type=submit]{
+            height: 80px;
+            font-size: 5em;
+        }
+
+        form > a.botao{
+            height: 80px;
+        }
 }
