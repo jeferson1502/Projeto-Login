@@ -38,7 +38,6 @@
 
         section#login{
             width: 90vw;
-            font-size: 1.3em;
         }
 
         #imagem{
@@ -63,7 +62,6 @@
 
         section#login{
             width: 90vw;
-            font-size: 2em;
             height: 80vh;
             border-radius: 40px;
         }
@@ -80,16 +78,4 @@
             height: 100vh;
         }
 
-        .campo input{
-            width: calc(100% - 80px);
-        }
-
-        form > input[type=submit]{
-            height: 80px;
-            font-size: 5em;
-        }
-
-        form > a.botao{
-            height: 80px;
-        }
 }
